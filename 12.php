@@ -1,5 +1,5 @@
 <?php
-// Generate an error for demonstration purposes.
+
 @include 'missing_file.php';
 
 $error = error_get_last();
