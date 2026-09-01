@@ -1,13 +1,33 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Left Rotation of Array</title>
+</head>
+<body>
 
-$input = readline("Enter 4 integers separated by spaces: ");
-$array = explode(" ", $input);
+    <h2>Left Rotate an Array</h2>
 
-$first = array_shift($array);
-$array[] = $first;
+    <form method="post">
+        <label>Enter 4 integers separated by spaces:</label>
+        <input type="text" name="input" required>
+        <br><br>
 
-echo "Array after left rotation: ";
+        <button type="submit">Rotate</button>
+    </form>
 
-print_r($array);
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-?>
+        $input = $_POST["input"];
+        $array = preg_split('/\s+/', trim($input));
+
+        $first = array_shift($array);
+        $array[] = $first;
+
+        echo "<h3>Array after left rotation:</h3>";
+        echo implode(" ", $array);
+    }
+    ?>
+
+</body>
+</html>
