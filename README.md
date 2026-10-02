@@ -1,75 +1,146 @@
-**PHP Assignment Repository
+# PHP Assignments
 
-Welcome to my PHP Assignment Repository. This repository contains the PHP programs and assignments completed as part of my BCA Semester 5 coursework.
+A collection of PHP and MySQL assignments completed as part of my **BCA Semester 5 coursework**.
 
-👨‍💻 About Me
-Course: Bachelor of Computer Applications (BCA)
-Semester: 5th Semester
-Subject: PHP / Web Development
-Purpose: Academic assignments and practice programs
-📂 Repository Contents
+This repository contains academic programs and practical assignments covering PHP fundamentals, form handling, server-side validation, MySQL database connectivity, and basic web application development.
 
-This repository contains various PHP assignments covering fundamental and intermediate concepts of PHP and web development, including:
+## 📚 Course Information
 
-PHP Basics
-Variables and Data Types
-Operators and Expressions
-Conditional Statements
-Loops
-Functions
-Arrays
-Strings
-Forms and Form Handling
-GET and POST Methods
-Cookies and Sessions
-File Handling
-MySQL Database Connectivity
-CRUD Operations
-Basic Web Applications
-🛠️ Technologies Used
-PHP
-HTML5
-CSS3
-MySQL
-Apache / XAMPP
-Visual Studio Code
-🚀 How to Run the Programs
+* **Course:** Bachelor of Computer Applications (BCA)
+* **Semester:** 5th Semester
+* **Subject:** PHP with MySQL
+* **Paper Code:** BCAC591
+* **Purpose:** Academic coursework, practical assignments, and PHP learning
 
-To run these PHP assignments locally:
+## 📂 Repository Structure
 
-Install XAMPP or another PHP development environment.
-Start Apache and MySQL from the XAMPP Control Panel if required.
-Clone this repository into the htdocs folder.
-git clone https://github.com/your-username/your-repository-name.git
+```text
+PHP/
+│
+├── Assignment_1/
+│   ├── README.md
+│   └── ...
+│
+├── Assignment_2/
+│   ├── README.md
+│   └── ...
+│
+├── Assignment_3/
+│   ├── README.md
+│   ├── Q1/
+│   ├── Q2/
+│   ├── Q3/
+│   ├── Q4/
+│   ├── Q5/
+│   └── Q6/
+│
+└── README.md
+```
 
-Open your browser and visit:
-http://localhost/your-repository-name/
+Each assignment contains its own README file with information about the questions, concepts covered, file structure, and execution instructions.
 
-Select the required PHP file or assignment from the project folder.
-📌 Note
+## 🧩 Assignments
 
-These programs are created for academic and learning purposes as part of my BCA Semester 5 coursework.
+### Assignment 1
 
-The code may be improved and updated as I learn more about PHP and web development.
+Contains the programs and practical exercises completed for Assignment 1.
 
-📖 Learning Objectives
+➡️ [Open Assignment 1](./Assignment_1/)
 
-Through these assignments, I aim to develop an understanding of:
+### Assignment 2
 
-Server-side programming using PHP
-Dynamic web page development
-Form processing and validation
-Database connectivity
-CRUD operations
-Sessions and cookies
-File handling
-Basic web application development
-🔄 Future Updates
+Contains the programs and practical exercises completed for Assignment 2.
 
-More assignments and PHP projects may be added to this repository as the semester progresses.
+➡️ [Open Assignment 2](./Assignment_2/)
 
-⭐ If you find this repository useful
+### Assignment 3 — PHP with MySQL
 
-Feel free to explore the assignments and use them for learning and reference purposes.
+Assignment 3 focuses on PHP forms, server-side validation, MySQL database connectivity, registration, and login functionality.
 
-Made with ❤️ while learning PHP | BCA Semester 5**
+➡️ [Open Assignment 3](./Assignment_3/)
+
+## 🛠️ Technologies Used
+
+* PHP
+* HTML5
+* CSS3
+* MySQL
+* Apache
+* XAMPP
+* Visual Studio Code
+* phpMyAdmin
+
+## 🚀 How to Run
+
+### 1. Install XAMPP
+
+Install XAMPP with Apache, PHP, and MySQL.
+
+### 2. Clone the repository
+
+Clone this repository into the XAMPP `htdocs` directory:
+
+```bash
+git clone https://github.com/theSnehashis/PHP.git
+```
+
+The repository should be located at:
+
+```text
+C:\xampp\htdocs\PHP
+```
+
+### 3. Start XAMPP
+
+Open the XAMPP Control Panel and start:
+
+* Apache
+* MySQL
+
+MySQL is required for assignments that use databases.
+
+### 4. Open the required assignment
+
+Open the corresponding assignment through your browser.
+
+For example:
+
+```text
+http://localhost/PHP/Assignment_3/
+```
+
+Then open the required question folder/file.
+
+## 📖 Learning Objectives
+
+Through these assignments, I am developing practical knowledge of:
+
+* PHP syntax and programming fundamentals
+* Variables and data types
+* Operators and expressions
+* Conditional statements
+* Loops
+* Functions
+* Arrays and strings
+* HTML forms
+* GET and POST methods
+* Form processing
+* Server-side validation
+* MySQL database connectivity
+* SQL operations
+* Registration and login systems
+* Basic web application development
+
+## 🔐 Academic & Learning Purpose
+
+This repository is maintained for academic and learning purposes as part of my BCA coursework.
+
+The programs may be improved, refactored, or expanded as I learn more about PHP, MySQL, web development, and backend programming.
+
+## 🔄 Future Updates
+
+More assignments, PHP programs, and practical projects will be added as the semester progresses.
+
+---
+
+**Made while learning PHP and MySQL | BCA Semester 5**
